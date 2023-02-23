@@ -8,7 +8,7 @@ metadata:
     app.kubernetes.io/managed-by: kustomize
     app.kubernetes.io/name: jvm-build-suite-component-gkys
     app.kubernetes.io/part-of: jvm-build-suite-application-pexn
-  name: jvm-build-suite-componentasxa
+  name: jvm-build-suite-componentkc3a
   namespace: jvm-build-nuhf-tenant
 spec:
   port:
