@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: jvm-build-suite-component-gkys
+  namespace: jvm-build-nuhf-tenant
+spec:
+  replicas: 1
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/rh_ee_tnevrlka/test-images@sha256:f94108645c3092923e3845c982fda692fdfedad72f404bc9898556e1959852e4
+        name: container-image
+        resources: {}
+status: {}
